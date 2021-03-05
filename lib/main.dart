@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner:false,
       home: WebviewScaffold(
         url: 'https://nudespatium.space/baha/',
+        clearCache: true,
+        appCacheEnabled: true,
         //javascriptMode: JavascriptMode.unrestricted,
         withLocalUrl:true,
         withLocalStorage: true,
